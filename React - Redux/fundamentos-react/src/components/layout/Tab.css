@@ -1,0 +1,19 @@
+.table{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.table th{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+
+.table .par{
+    background-color:dimgray;
+}
+
+
+.table .impar{
+    background-color: gray;
+}

@@ -1,0 +1,6 @@
+.App .Container{
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+}
