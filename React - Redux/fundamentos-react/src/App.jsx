@@ -1,6 +1,7 @@
 import './App.css'
 import React from 'react'
 
+import Mega from './components/mega/Mega'
 import Contador from './components/contador/Contador'
 import Input from './components/formulario/input'
 import InderetaPai from './components/comunicacao/InderetaPai'
@@ -24,6 +25,11 @@ export default function App(){
 
             <div className="Container">                 
                 
+                <Card titulo="#13-Desafio Mega" color="#1c2545">
+                    <Mega></Mega>
+                </Card>
+
+
                 <Card titulo="#12-Contador" color="#404B5D">
                     <Contador numeroInicial={10}/>
                 </Card>
